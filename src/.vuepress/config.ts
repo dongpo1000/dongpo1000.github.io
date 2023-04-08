@@ -4,6 +4,7 @@ import theme from "./theme.js";
 export default defineUserConfig({
   base: "/",
 
+  // @ts-ignore
   locales: {
     "/": {
       lang: "en-US",
