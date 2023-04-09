@@ -2,11 +2,11 @@
 home: true
 layout: BlogHome
 icon: home
-title: Blog Home
-heroImage: /logo.svg
-heroText: the name of your blog
-tagline: You can put your slogan here
-heroFullScreen: true
+title: 博客主页
+heroImage: /banzhuan.jpg
+heroText: 东边山坡的技术博客
+tagline: 把时间当作朋友，一切都靠积累。
+heroFullScreen: false
 projects:
   - icon: project
     name: project name
