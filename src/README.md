@@ -1,9 +1,9 @@
 ---
 home: true
 icon: home
-title: 项目主页
-heroImage: /logo.svg
-heroText: 项目名称
+heroImage: /banzhuan.jpg
+title: 东坡的学习笔记
+heroText: 东坡的学习笔记
 tagline: 你可以在这里放置或是整个项目的描述。
 actions:
   - text: 使用指南 💡

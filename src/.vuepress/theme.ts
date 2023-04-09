@@ -47,6 +47,27 @@ export default hopeTheme({
     },
   },
 
+  // 博客配置
+  blog: {
+    // 头像
+    avatar: "/banzhuan.jpg",
+    // 名称
+    name: "Mr.Tong",
+    // 是否是圆形头像
+    roundAvatar: false,
+    // 个人描述
+    description: "你是无意穿堂风 偏偏孤倨引山洪",
+    // 社交媒体
+    medias: {
+      Gitee: "https://gitee.com/oucystong",
+    },
+    // 博客的侧边栏设置
+    sidebarDisplay: "mobile",
+    // 每页展示的文章数量
+    articlePerPage: 7,
+    timeline: "小佟の时光轴🍃",
+  },
+
   plugins: {
     // If you don’t need comment feature, you can remove following option
     // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
@@ -117,6 +138,14 @@ export default hopeTheme({
       vPre: true,
       vuePlayground: true,
     },
+
+    // 打开博客功能
+    blog: {
+      // 在文章列表页面自动提取文章的摘要进行显示
+      // @ts-ignore
+      autoExcerpt: true,
+    },
+
 
     // uncomment these if you want a pwa
     // pwa: {
